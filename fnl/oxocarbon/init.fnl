@@ -620,6 +620,14 @@
 (custom-set-face! :NeogitHunkHeader [] {:fg oxocarbon.base04 :bg oxocarbon.base02})
 (custom-set-face! :NeogitHunkHeaderHighlight [] {:fg oxocarbon.base04 :bg oxocarbon.base03})
 
+;; gitsigns
+(custom-set-face! :GitSignsAdd                   [] {:link "DiffAdded"})
+(custom-set-face! :GitSignsChange                [] {:link "DiffChanged"})
+(custom-set-face! :GitSignsDelete                [] {:link "DiffRemoved"})
+(custom-set-face! :GitSignsCurrentLineBlame      [] {:link "DiffText"})
+(custom-set-face! :GitSignsAddPreview            [] {:link "DiffAdd"})
+(custom-set-face! :GitSignsDeletePreview         [] {:link "DiffDelete"})
+
 ;; hydra
 
 (custom-set-face! :HydraRed [] {:fg oxocarbon.base12 :bg oxocarbon.none})
