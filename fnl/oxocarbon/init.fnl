@@ -175,9 +175,9 @@
 
 ;; lsp
 
-(custom-set-face! :LspReferenceText [] {:fg oxocarbon.none :bg oxocarbon.base03})
-(custom-set-face! :LspReferenceread [] {:fg oxocarbon.none :bg oxocarbon.base03})
-(custom-set-face! :LspReferenceWrite [] {:fg oxocarbon.none :bg oxocarbon.base03})
+(custom-set-face! :LspReferenceText [] {:fg oxocarbon.none :bg (blend-hex base00 oxocarbon.base05 0.15)})
+(custom-set-face! :LspReferenceread [] {:fg oxocarbon.none :bg (blend-hex base00 oxocarbon.base05 0.15)})
+(custom-set-face! :LspReferenceWrite [] {:fg oxocarbon.none :bg (blend-hex base00 oxocarbon.base05 0.15)})
 (custom-set-face! :LspSignatureActiveParameter [] {:fg oxocarbon.base08 :bg oxocarbon.none})
 
 ;; lps-semantic-tokens
